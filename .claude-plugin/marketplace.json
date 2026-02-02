@@ -1,0 +1,15 @@
+{
+  "name": "rene-bossen-agents",
+  "owner": {
+    "name": "René Bossen",
+    "url": "https://github.com/ReneBossen"
+  },
+  "plugins": [
+    {
+      "name": "claude-agents",
+      "source": "./",
+      "description": "Reusable Claude Code agents and skills for .NET + React Native projects. Dynamic skill routing, self-training agents.",
+      "version": "1.0.0"
+    }
+  ]
+}
