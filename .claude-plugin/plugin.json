@@ -1,0 +1,17 @@
+{
+  "name": "stepper-agents",
+  "version": "1.0.0",
+  "description": "Reusable Claude Code agents and skills for .NET + React Native projects following Screaming Architecture, SOLID principles, and Supabase patterns",
+  "author": "Stepper Team",
+  "repository": "",
+  "license": "MIT",
+  "keywords": [
+    "dotnet",
+    "react-native",
+    "expo",
+    "supabase",
+    "screaming-architecture",
+    "solid",
+    "clean-code"
+  ]
+}
