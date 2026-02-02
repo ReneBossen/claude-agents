@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Reusable Claude Code agents and skills for .NET + React Native projects following Screaming Architecture, SOLID principles, and Supabase patterns",
   "author": {
-    "name": "René Bossen",
+    "name": "Rene Bossen",
     "url": "https://github.com/ReneBossen"
   },
   "repository": "https://github.com/ReneBossen/claude-agents",
