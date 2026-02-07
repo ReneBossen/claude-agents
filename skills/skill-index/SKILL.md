@@ -9,6 +9,9 @@ Use this index to identify which skills are relevant for a task before spawning 
 | `screaming-architecture` | Vertical slice architecture, feature-based organization, dependency rules | Backend, Architecture, Planner |
 | `solid-principles` | SOLID principles with C# examples, dependency injection patterns | Backend, Architecture, Reviewer |
 | `supabase-patterns` | RLS policies, schema conventions, entity separation, PostgreSQL patterns | Database, Backend |
+| `testing-dotnet` | xUnit + Moq + FluentAssertions patterns, constructor drift, mock defaults | Tester, Backend, Reviewer |
+| `testing-react-native` | Jest + RNTL patterns, native module mocks, compound component mocking | Tester, Frontend |
+| `test-maintenance` | Keeping tests in sync with source changes, pre-commit checklist, warning signs | Tester, Backend, Frontend, Reviewer |
 | `agent-contract` | Non-negotiable agent behavior, quality gates, escalation triggers | All agents |
 | `forbidden-actions` | Prohibited actions, git safety, scope violations | All agents |
 | `self-training` | How to detect and propose new skills | All agents |
@@ -21,23 +24,24 @@ Use this index to identify which skills are relevant for a task before spawning 
 |------|-------------------|
 | **API endpoint development** | screaming-architecture, solid-principles, supabase-patterns |
 | **Database schema/migration** | supabase-patterns |
-| **Mobile UI development** | (project-specific frontend skills) |
+| **Mobile UI development** | testing-react-native |
 | **Architecture decisions** | screaming-architecture, solid-principles |
 | **Feature planning** | screaming-architecture, solid-principles |
-| **Code review** | screaming-architecture, solid-principles, forbidden-actions |
-| **Testing** | (project-specific testing skills) |
+| **Code review** | screaming-architecture, solid-principles, forbidden-actions, test-maintenance |
+| **Backend testing** | testing-dotnet, test-maintenance |
+| **Frontend testing** | testing-react-native, test-maintenance |
 
 ### By Agent
 
 | Agent | Core Skills | Optional Skills |
 |-------|-------------|-----------------|
-| `backend-engineer` | screaming-architecture, solid-principles | supabase-patterns |
-| `frontend-engineer` | self-training | (frontend-specific skills) |
+| `backend-engineer` | screaming-architecture, solid-principles | supabase-patterns, test-maintenance |
+| `frontend-engineer` | testing-react-native | test-maintenance |
 | `database-engineer` | supabase-patterns | |
 | `architecture-engineer` | screaming-architecture, solid-principles | |
 | `planner` | screaming-architecture, solid-principles | |
-| `tester` | self-training | |
-| `reviewer` | screaming-architecture, solid-principles, forbidden-actions | |
+| `tester` | testing-dotnet, testing-react-native, test-maintenance | |
+| `reviewer` | screaming-architecture, solid-principles, forbidden-actions | test-maintenance |
 
 ## Skill Locations
 
