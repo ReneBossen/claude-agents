@@ -15,6 +15,7 @@ Use this index to identify which skills are relevant for a task before spawning 
 | `agent-contract` | Non-negotiable agent behavior, quality gates, escalation triggers | All agents |
 | `forbidden-actions` | Prohibited actions, git safety, scope violations | All agents |
 | `self-training` | How to detect and propose new skills | All agents |
+| `healthkit-ios` | iOS HealthKit integration, Apple privacy model, step data reading, permissions | Frontend |
 
 ## Skill Selection Guide
 
@@ -30,6 +31,7 @@ Use this index to identify which skills are relevant for a task before spawning 
 | **Code review** | screaming-architecture, solid-principles, forbidden-actions, test-maintenance |
 | **Backend testing** | testing-dotnet, test-maintenance |
 | **Frontend testing** | testing-react-native, test-maintenance |
+| **iOS health data integration** | healthkit-ios, expo-deployment |
 
 ### By Agent
 
