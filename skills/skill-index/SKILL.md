@@ -15,6 +15,7 @@ Use this index to identify which skills are relevant for a task before spawning 
 | `agent-contract` | Non-negotiable agent behavior, quality gates, escalation triggers | All agents |
 | `forbidden-actions` | Prohibited actions, git safety, scope violations | All agents |
 | `self-training` | How to detect and propose new skills | All agents |
+| `expo-deployment` | EAS builds, config plugins, dev client, physical device testing, cleartext config | Frontend, Tester |
 
 ## Skill Selection Guide
 
@@ -30,13 +31,14 @@ Use this index to identify which skills are relevant for a task before spawning 
 | **Code review** | screaming-architecture, solid-principles, forbidden-actions, test-maintenance |
 | **Backend testing** | testing-dotnet, test-maintenance |
 | **Frontend testing** | testing-react-native, test-maintenance |
+| **Expo build/deployment** | expo-deployment |
 
 ### By Agent
 
 | Agent | Core Skills | Optional Skills |
 |-------|-------------|-----------------|
 | `backend-engineer` | screaming-architecture, solid-principles | supabase-patterns, test-maintenance |
-| `frontend-engineer` | testing-react-native | test-maintenance |
+| `frontend-engineer` | testing-react-native | test-maintenance, expo-deployment |
 | `database-engineer` | supabase-patterns | |
 | `architecture-engineer` | screaming-architecture, solid-principles | |
 | `planner` | screaming-architecture, solid-principles | |
